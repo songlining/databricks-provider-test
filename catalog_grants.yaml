@@ -14,8 +14,7 @@ strada:
       - USE_CATALOG
       - CREATE_SCHEMA
 
-# Example: Add more catalogs as needed
-# analytics:
-#   - principal: grp_analysts
-#     privileges:
-#       - USE_CATALOG
+analytics:
+  - principal: grp_analysts
+    privileges:
+      - USE_CATALOG
