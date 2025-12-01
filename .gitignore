@@ -37,5 +37,7 @@ tests/.terraform/
 tests/*.tfstate
 tests/*.tfstate.*
 
+# Ignore generated documentation
 PROJECT_SUMMARY.md
+COMPARISON.md
 
