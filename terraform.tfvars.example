@@ -1,0 +1,15 @@
+# Example Terraform variables configuration
+# Copy this file to terraform.tfvars and update with your actual values
+
+databricks_host  = "https://your-workspace.cloud.databricks.com"
+databricks_token = "your-databricks-token-here"
+
+# Optional: Additional catalog grants to merge with defaults
+# additional_catalog_grants = {
+#   production = [
+#     {
+#       principal  = "grp_prod_users"
+#       privileges = ["USE_CATALOG"]
+#     }
+#   ]
+# }

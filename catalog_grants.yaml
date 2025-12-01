@@ -1,0 +1,21 @@
+strada:
+  - principal: grp_data_engineers
+    privileges:
+      - USE_CATALOG
+      - CREATE_SCHEMA
+  - principal: grp_data_scientists
+    privileges:
+      - USE_CATALOG
+  - principal: grp_bi_users
+    privileges:
+      - USE_CATALOG
+  - principal: spn_ingestion
+    privileges:
+      - USE_CATALOG
+      - CREATE_SCHEMA
+
+# Example: Add more catalogs as needed
+# analytics:
+#   - principal: grp_analysts
+#     privileges:
+#       - USE_CATALOG
