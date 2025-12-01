@@ -96,11 +96,10 @@ strada:
       - USE_CATALOG
       - CREATE_SCHEMA
 
-# Add more catalogs here
-# analytics:
-#   - principal: grp_analysts
-#     privileges:
-#       - USE_CATALOG
+analytics:
+  - principal: grp_analysts
+    privileges:
+      - USE_CATALOG
 ```
 
 The YAML file is loaded in `main.tf`:
