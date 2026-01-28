@@ -1,0 +1,21 @@
+analytics:
+  - principal: grp_analysts
+    privileges:
+      - USE_CATALOG
+
+strada:
+  - principal: grp_bi_users
+    privileges:
+      - USE_CATALOG
+  - principal: grp_data_engineers
+    privileges:
+      - CREATE_SCHEMA
+      - USE_CATALOG
+  - principal: grp_data_scientists
+    privileges:
+      - USE_CATALOG
+  - principal: spn_ingestion
+    privileges:
+      - CREATE_SCHEMA
+      - USE_CATALOG
+
